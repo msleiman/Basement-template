@@ -1,0 +1,21 @@
+//variables
+$grey: #585858;
+$white: #fff;
+$primary-font: 'Open Sans', sans-serif;
+
+//
+
+p, h1, h2, h3, h4, ul, li {
+  font-family: $primary-font
+}
+
+.basementWrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+@media only screen and (max-width: 1199px) {
+  .basementWrap {
+    max-width: 100%;
+  }
+}

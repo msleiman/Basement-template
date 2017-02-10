@@ -1,0 +1,60 @@
+.footer-module {
+    padding: 42px;
+    float: left;
+    width: 90%;
+  .logo , .contact, .product, .social-media {
+    float: left;
+  }
+
+    h4 {
+      font-size: 10px;
+      color: #515356;
+      letter-spacing: 1px;
+      line-height: 12px;
+      padding-bottom: 10px;
+    }
+    li {
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 0.2px;
+      line-height: 21px;
+    }
+    a {
+      color: #B2B2B2;
+      text-decoration: none;
+    }
+     .logo {
+       width: 20%;
+       padding-left: 58px;
+     }
+     .contact {
+       width: 20%;
+
+     }
+     .product {
+       width: 20%;
+
+     }
+     .social-media {
+       width: 20%;
+        li {
+          display: inline-block;
+        }
+     }
+}
+
+@media only screen and (max-width: 1199px) {
+
+  .footer-module {
+    padding: 0;
+    .logo {
+      padding-left: 0px;
+    }
+    .logo , .contact, .product, .social-media {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+
+}
